@@ -1,0 +1,39 @@
+This file contains a list of plans for Bob.
+
+TO-DO RIGHT NOW
+
+1) Productivity / Work
+COMPLETED:
+ - To-do List
+ - Time
+ - Weather (fully implemented with caching!)
+
+TO-DO:
+ - Calendar (with Google Calendar integration)
+ - Timers/Alarms
+ - Study Help Features
+ - Flashcard Features (kinda like quizlet)
+ - Vocab Studying
+
+2) Entertainment
+COMPLETED:
+ - Jokes
+ - Small Talk (updated with modern responses)
+ - Greeting (enhanced with more variety)
+ - Simple Games (Tic Tac Toe, Guess the Number, Wordle)
+ - Rock Paper Scissors (newly added!)
+
+TO-DO:
+ - Enhanced small talk / chatbot capabilities
+ - Pop Quizzes
+ - Fun Facts
+ - Riddles
+ - Stories
+
+IMPROVEMENTS MADE:
+ - Weather app now has caching (10 minute duration)
+ - Weather app optimized for better performance
+ - SmallTalkApp updated with modern, friendly tone
+ - GreetApp expanded with 8 greeting variations
+ - GameApp includes Rock Paper Scissors (best of 3)
+ - Main greeting message updated to mention weather
