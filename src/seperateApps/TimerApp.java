@@ -25,6 +25,8 @@ public class TimerApp {
 		
 		JFrame window = new JFrame("Timer");
 		
+		Color c = new Color(23, 232, 23); // greenish color
+		
 		// Stops the timer if the window is closed:
 		window.addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent we) {
@@ -34,7 +36,7 @@ public class TimerApp {
 		
 		window.setLayout(new GridLayout(3, 1));
 		
-		window.getContentPane().setBackground(new Color(214, 36, 54));
+		window.getContentPane().setBackground(c);
 		
 		window.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		window.setSize(360, 240);
@@ -55,7 +57,7 @@ public class TimerApp {
 				SoundPlayer.playSound("pause_sound.wav");
 			}
 		});
-		pauseButton.setBackground(new Color(214, 36, 54));
+		pauseButton.setBackground(c);
 		
 		// Reset Button
 		JButton resetButton = new JButton("Reset");
@@ -77,7 +79,7 @@ public class TimerApp {
 				oneSecondTimer.start();
 			}
 		});
-		resetButton.setBackground(new Color(214, 36, 54));
+		resetButton.setBackground(c);
 		
 		// Timer
 		makeTimer(maxMinutes, maxSeconds, timerLabel, "Time's Up!");
